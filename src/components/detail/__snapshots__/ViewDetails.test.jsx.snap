@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewDetails component renders ViewDetails 1`] = `
+<DocumentFragment>
+  <div
+    class="ViewDetails"
+  >
+    <h1>
+      Bob
+    </h1>
+    <img
+      alt="Bob"
+      src="http://img.com/pic.png"
+    />
+    <div>
+      Occupation: builder
+    </div>
+    <div>
+      Weird stuff happened
+    </div>
+  </div>
+</DocumentFragment>
+`;

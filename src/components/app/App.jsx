@@ -5,8 +5,8 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
-import ViewCharacters from '../../containers/ViewCharacters';
-import DetailView from '../detail/DetailView';
+import ViewCharacters from '../../containers/CharactersView';
+import DetailView from '../../containers/DetailView';
 
 export default function App() {
   return (

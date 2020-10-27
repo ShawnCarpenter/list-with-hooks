@@ -1,10 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const Loading = props => {
+const Loading = () => {
   return (
     <div>
-      <h1>Loading</h1>
+      <img src="https://i.stack.imgur.com/hzk6C.gif" alt="Waiting" />
     </div>
   );
 };

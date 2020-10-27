@@ -1,0 +1,13 @@
+.CharacterList {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li {
+    list-style-type: none;
+    border: .2rem solid #272727;
+    border-radius: .3rem;
+    margin: .2rem;
+    padding: .2rem;
+  }
+}

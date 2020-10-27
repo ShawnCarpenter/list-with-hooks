@@ -1,3 +1,4 @@
+import fetch from 'node-fetch';
 
 export const getCharacterList = () => {
   // eslint-disable-next-line max-len

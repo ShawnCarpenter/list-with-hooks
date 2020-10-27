@@ -3,7 +3,7 @@ import Loading from '../components/loading/Loading';
 import CharacterList from '../components/characters/CharacterList';
 import { getCharacterList } from '../services/getCharacterList';
 
-const ViewCharacters = () => {
+const CharactersView = () => {
   const [loading, setLoading] = useState(true);
   const [characters, setCharacters] = useState([]);
 
@@ -12,9 +12,8 @@ const ViewCharacters = () => {
       .then(characters => setCharacters(characters))
       .finally(setLoading(false));
   }, []);
-  if(loading) return <Loading />;
-  
-  return <CharacterList characters={characters}/>;
+
+  return loading ? <Loading /> : <CharacterList characters={characters} />;
 };
 
-export default ViewCharacters;
+export default CharactersView;
